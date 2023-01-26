@@ -1,6 +1,6 @@
 ######################## 0) Instalar e baixar pacotes ##########################
 
-# a) Instalando
+# a) Instalando os pacotes necessários
 
 install.packages("remotes")
 install.packages("abjutils")
