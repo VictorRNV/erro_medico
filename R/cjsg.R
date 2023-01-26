@@ -46,12 +46,24 @@ usethis::use_github() # Responder com 2
 # Serve para criar projetos e pacotes e tem muitas funcionalidades relacionadas 
 # a pacotes e projetos
 # 
-# Para atualizar o projeto no GitHub, é necessário fazer três passos
-# 1 ) clicar no Git, no lado superior
-# direito. Depois seleciona os arquivos que quer que suba faz o Commit e 
+# Para atualizar o projeto no GitHub fora do terminal, é necessário fazer três passos
+# 1) Clicar no Git, no lado superior direito. 
+# 2) Selecionar os arquivos que quer que suba 
+# 3) Fazer o Commit 
+# 4) Fazer o push
 # 
-# 
-# 
+# Para usar no terminal:
+#
+# 1) Fazendo o staging: Selecionando os arquivos para atualizar
+# git add . #o ponto quer dizer todos os arquivos
+#
+# 2) Fazendo o commit: atualizando de fato os arquivos
+#
+# git commit -m "atualização"
+#
+# 3) Fazendo o push: atualizando o projeto no GitHub
+#
+# git push -u origin master  
 # 
 # 
 ############## 1) Baixando as jurisprudências em html ##########################
