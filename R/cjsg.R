@@ -25,20 +25,33 @@ library(tjsp)
 library(remotes)
 library(abjutils)
 library(tidyverse)
-library(ggplot2)
-library(tibble)
-library(tidyr)
-library(readr)
-library(purrr)
-library(dplyr)
-library(stringr)
-library(forcats)
+# library(ggplot2)
+# library(tibble)
+# library(tidyr)
+# library(readr)
+# library(purrr)
+# library(dplyr)
+# library(stringr)
+# library(forcats)
 library(dados)
 library(writexl)
 library(readxl)
 
+################ 0) Fazendo o controle versão ###########################
+#
 
+usethis::use_git() # Responder com 2 e 2
+usethis::use_github() # Responder com 2
 
+# Serve para criar projetos e pacotes e tem muitas funcionalidades relacionadas 
+# a pacotes e projetos
+# 
+#
+# 
+# 
+# 
+# 
+# 
 ############## 1) Baixando as jurisprudências em html ##########################
 
 assunto <- "10431,10433,10434"
@@ -126,3 +139,5 @@ decisoes_por_relator
 saveRDS(cjsg, "data/cjsg.rds")
 
 library(dados)
+
+#
