@@ -46,7 +46,9 @@ usethis::use_github() # Responder com 2
 # Serve para criar projetos e pacotes e tem muitas funcionalidades relacionadas 
 # a pacotes e projetos
 # 
-#
+# Para atualizar o projeto no GitHub, é necessário fazer três passos
+# 1 ) clicar no Git, no lado superior
+# direito. Depois seleciona os arquivos que quer que suba faz o Commit e 
 # 
 # 
 # 
